@@ -4,8 +4,7 @@
 <p>
 <img src="https://img.shields.io/pypi/pyversions/index.py" alt="PyPI - Python Version" />
 </p>
-Kui 服务端Api模版项目<br>
-服务端Api项目
+Kui 服务端 Api 模版项目<br>
 </div>
 
 ---
