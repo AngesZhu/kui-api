@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "kui-api"
+version = "0.1.0"
+description = "kui系列，Py后端demo项目"
+authors = ["AngesZhu <ju_limeng@126.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+rpc-py = "^0.6.0"
+sqlalchemy = "^2.0.16"
+redis = "^4.5.5"
+loguru = "^0.7.0"
+apscheduler = "^3.10.1"
+pydantic = "^1.10.9"
+jwt = "^1.3.1"
+httpx = "^0.24.1"
+waitress = "^2.1.2"
+kui = "^1.4.0"
+pyyaml = "^6.0"
+pymysql = "^1.1.0"
+runweb = {extras = ["reload"], version = "^0.2.0"}
+
+[[tool.poetry.source]]
+name = "aliyun"
+url = "http://mirrors.aliyun.com/pypi/simple"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
